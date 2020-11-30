@@ -53,7 +53,7 @@ body {
 }
 
 
-/* Image container button position */
+/* Guru Container */
 .container {
     position: relative;
     width: 50%;
@@ -84,7 +84,7 @@ body {
 }
 
 .guru-img {
-    opacity: 75%;
+    opacity: 80%;
 }
 
 /* DU Container */
@@ -118,7 +118,7 @@ body {
 }
 
 .du {
-    opacity: 75%;
+    opacity: 80%;
 }
 
 /* Bloom Workspace Container */
@@ -152,34 +152,10 @@ body {
 }
 
 .bloom {
-    opacity: 75%;
+    opacity: 80%;
 }
 
-/* Navigation Bar */
-.navbar {
-    overflow: hidden;
-    background-color: rgb(22, 22, 22);
-}
-
-.navbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0.875em 1em;
-    text-decoration: none;
-    font-size: 0.90em;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-.navbar a.active {
-    background-color: #DFB000;
-    color: white;
-}
-  
+/* Let's Connect Button*/
 .btn {
     cursor: pointer;
     display: block;
@@ -196,12 +172,13 @@ body {
 .btn:hover {background: rgb(0, 0, 0);}
     .connect {color: #000000;}
 
-
+/* Footer */    
 .footer {
     font-family: 'latoblack' Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
+/* Back to Top Button */
 btt {
     display: block;
     position: absolute;
