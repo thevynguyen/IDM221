@@ -21,6 +21,40 @@
     url(../fonts/lato-black-webfont.woff) format('woff');
 }
 
+h1 {
+    font-family: 'latobold', Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'latobold', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.break {
+    margin-bottom: 15px;
+}
+
+main.portfolio {
+    font-family: 'latoregular', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px;
+}
+
+p {
+    font-family: 'karlaregular', Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.column {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    
+}
 /* Navigation Bar */
 .navbar {
     overflow: hidden;
@@ -33,7 +67,7 @@
     text-align: center;
     padding: 0.875em 1em;
     text-decoration: none;
-    font-size: 0.90em;
+    font-size: 0.85em;
 }
 
 .navbar a:hover {
@@ -44,4 +78,26 @@
 .navbar a.active {
     background-color: #DFB000;
     color: white;
+}
+
+.prototype {
+    cursor: pointer;
+    display: block;
+    background-color: #DFB000;
+    border: none;
+    font-family: 'latobold', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 10px;
+    padding: 0.5em 0.75em;
+}
+
+.prototype2 {
+    cursor: pointer;
+    display: block;
+    background-color: #DFB000;
+    border: none;
+    font-family: 'latobold', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 10px;
+    padding: 0.5em 0.75em;
 }
