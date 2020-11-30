@@ -5,49 +5,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Vy Nguyen Portfolio Site</title>
-        <!-- <link rel="stylesheet" href="css/main.css" -->
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header id="header_home">
-            <div class="logo">
-                <img src="img/vyn.jpg" alt="">
-            </div>
-            <!--Navigation-->
+            <!--Navigation
             <nav>
                 <div class="navbar">
                     <a href="index.html">Home</a> |
                     <a href="about.html">About</a> |
                     <a href="portfolio/index.html">Portfolio</a> |
                 </div>
-            </nav>
+            </nav> -->
+            <div class="navbar">
+                <a class="active" href="index.html">Home</a>
+                <a id="top" href="about.html">About</a>
+                <a href="portfolio/index.html">Portfolio</a>
+              </div>
+          
         </header>
-        <h1 id="top">Welcome to Vy Nguyen's Portfolio!</h1>
-        <h2>Humanize design.</h2>
-        <p>My Portfolio:</p>
         <main>
-            <p>Hi, I'm Vy. I'm a designer, driven to creating <strong>magical user experiences</strong>. I am passionate about integrating <strong>accessibility and inclusiveness</strong> into my products and</p>
-            <img src="images/vyn.jpg" alt="Hero Image" width="360" height="220" />
+            <p style="text-align:center;"><img src="images/vy.png" alt="Logo" width="300" height="300"></p>
+            <h1>Hi, I'm Vy!</h1>
+            <p class="headline">I'm a designer, driven to creating <strong>magical user experiences</strong>. I am passionate about integrating <strong>accessibility and inclusiveness</strong> into my products and</p>
+            <button class="btn connect">Let's Connect</button>
             <!--Project Gallery-->
             <section id="content">
-                <h2>Portfolio</h2>
-                <ol>
-                    <li>Guru</li>
-                    <img src="images/guru.png" alt="Guru" width="315" height="220" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </p>
-                    <li>DrexelOne</li>
-                    <img src="images/du.png" alt="DrexelOne" width="315" height="220" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                    <li>Tripadvisor</li>
-                    <img src="images/tripadvisor.png" alt="Tripadvisor" width="315" height="220" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <li>Bloom</li>
-                    <img src="images/bloom.png" alt="Bloom" width="315" height="220" />
-                    <p>Lorem ipsum dolor sit amet, consectecture dadipsing elit, sed do siudmond tempor theudmc ehteu djowkm, incididuant.</p>
-                </ol>
+                <h2>Selected Work</h2>
+            <div class="container"></div>
+                <img src="images/guru.png" class="guru-img" alt="Guru" width="360" height="220" />
+                <div class="bottom-right">
+                    <form>
+                        <input type="button" class="guru" onclick="window.location.href='https://vynguyendesign.com/portfolio/guru.html';" value="View" />
+                    </form>
+                </div>
+                <p>Guru | March 2020 | UX/UI Design Project</p>
+                <img src="images/du.png" alt="DrexelOne" width="360" height="220" />
+                <p>DrexelOne | September 2019 | UX/UI Redesign Case Study</p>
+                <img src="images/tripadvisor.png" alt="Tripadvisor" width="360" height="220" />      
+                <p>TripAdvisor [COMING SOON] | May 2020 | Micro-Interaction/UI Redesign</p>
             </section>
             <footer>
-                <p> <a href="#top">Top of Page</a></p>
                 <ul>
                     <li>
                         <p>
