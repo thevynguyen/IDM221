@@ -53,31 +53,107 @@ body {
 }
 
 
-.guru {
-    display: inline;
-    background-color: #1a1a1a;
-    border: none;
-    color: #ffffff;
-    font-family: 'latobold', Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin: 20px;
-    padding: 0.5em 0.75em;
+/* Image container button position */
+.container {
+    position: relative;
+    width: 50%;
 }
 
-guru.img {
-    opacity: 0.75;
-}
-
-/* Bottom right text */
-.bottom-right {
+.container .btn {
     position: absolute;
-    bottom: -230px;
-    right: 130px;
-  }
+    top: 65%;
+    left: 95%;
+    transform: translate(50%, 50%);
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 0.75em;
+    padding: .5em 0.85em;
+    border: none;
+    cursor: pointer;
+}
 
-/*#content {
-    opacity: 0.75;
-} */
+.container .btn:hover {
+    background-color: black;
+}
+
+.top-right {
+    position: absolute;
+    top: 970px;
+    right: 50px;
+    font-size: 0.75em;
+}
+
+.guru-img {
+    opacity: 75%;
+}
+
+/* DU Container */
+.container-2 {
+    position: relative;
+    width: 50%;
+}
+
+.container-2 .btn {
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(50%, 50%);
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 0.75em;
+    padding: .5em 0.85em;
+    border: none;
+    cursor: pointer;
+}
+
+.container-2 .btn:hover {
+    background-color: black;
+}
+
+.du-top {
+    position: absolute;
+    top: 1223px;
+    right: 48px;
+    font-size: 0.75em;
+}
+
+.du {
+    opacity: 75%;
+}
+
+/* Bloom Workspace Container */
+.container-3 {
+    position: relative;
+    width: 50%;
+}
+
+.container-3 .btn {
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(50%, 50%);
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 0.75em;
+    padding: .5em 0.85em;
+    border: none;
+    cursor: pointer;
+}
+
+.container-3 .btn:hover {
+    background-color: black;
+}
+
+.bloom-top {
+    position: absolute;
+    top: 1480px;
+    right: 45px;
+    font-size: 0.75em;
+}
+
+.bloom {
+    opacity: 75%;
+}
 
 /* Navigation Bar */
 .navbar {
@@ -119,3 +195,16 @@ guru.img {
 /* Mouse Hover */
 .btn:hover {background: rgb(0, 0, 0);}
     .connect {color: #000000;}
+
+
+.footer {
+    font-family: 'latoblack' Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+btt {
+    display: block;
+    position: absolute;
+    bottom: -105%;
+    right: 5%;
+}

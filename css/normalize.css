@@ -1,0 +1,22 @@
+* {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url(../fonts/karla-variablefont_wght-webfont.woff2) format('woff2'),
+    url(../fonts/karla-variablefont_wght-webfont.woff) format('woff');
+
+    font-family: 'latoregular';
+    src: url(../fonts/lato-regular-webfont.woff2) format('woff2'),
+    url(../fonts/lato-regular-webfont.woff) format('woff');
+
+
+    font-family: 'latobold';
+    src: url(../fonts/lato-bold-webfont.woff2) format('woff2'),
+    url(../fonts/lato-bold-webfont.woff) format('woff');
+
+    font-family: 'latoblack';
+    src: url(../fonts/lato-black-webfont.woff2)format('woff2'),
+    url(../fonts/lato-black-webfont.woff) format('woff');
+}
