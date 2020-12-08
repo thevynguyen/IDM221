@@ -1,40 +1,36 @@
-* {
-    scroll-behavior: smooth;
+
+
+.about-me {
+    border-bottom: .2rem dashed #000;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 }
 
-@font-face {
-    font-family: 'karlaregular';
-    src: url(../fonts/karla-variablefont_wght-webfont.woff2) format('woff2'),
-    url(../fonts/karla-variablefont_wght-webfont.woff) format('woff');
+.logo {
+    display: block;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding-top: .5rem;
+}
 
-    font-family: 'latoregular';
-    src: url(../fonts/lato-regular-webfont.woff2) format('woff2'),
-    url(../fonts/lato-regular-webfont.woff) format('woff');
+h2 {
+    margin: 1.5rem;
+}
 
-
-    font-family: 'latobold';
-    src: url(../fonts/lato-bold-webfont.woff2) format('woff2'),
-    url(../fonts/lato-bold-webfont.woff) format('woff');
-
-    font-family: 'latoblack';
-    src: url(../fonts/lato-black-webfont.woff2)format('woff2'),
-    url(../fonts/lato-black-webfont.woff) format('woff');
+p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    margin-top: -.1rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 
 
-.about {
-    font-family: 'latoblack', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin: auto;
-    padding-top: 50px;
-
-}
-
-.h-break {
-    margin: 20px;
-}
-
+/*
 h2 {
     font-family: 'latobold', Arial, Helvetica, sans-serif;
     font-size: 1.3em;
@@ -74,10 +70,11 @@ ul {
     line-height: 25px;
 }
 
-/* Back to Top Button */
+/* Back to Top Button 
 btt {
     display: block;
     position: absolute;
     bottom: -90%;
     right: 5%;
 }
+
