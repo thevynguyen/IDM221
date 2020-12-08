@@ -40,6 +40,7 @@ h2 {
     font-size: 1.5rem;
 }
 
+
 p {
     font-family: 'latoregular', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
@@ -53,6 +54,9 @@ ul {
     line-height: 2.3rem;
 }
 
+li {
+    font-family: 'latoregular', Arial, Helvetica, sans-serif;
+}
 
 
 /* Specific */
@@ -82,7 +86,7 @@ ul {
     color: white;
 }
 
-/* Let's Connect Button */
+/* Button */
 button {
     background-color: #DFB000;
     border: none;
@@ -97,14 +101,15 @@ button {
 /* Mouse Hover */
 .btn:hover {background: rgb(0, 0, 0);}
     .connect {color: #000000;}
-    
+
 
 /*Back to Top*/
 .back-to-top-link {
     background-color: #d1c597;
     border-radius: 50%;
+    position: absolute;
+    right: 2rem;
     display: block;
-    right: .25rem;
     font-size: 2rem;
     line-height: 3rem;
     height: 3rem;
@@ -113,4 +118,3 @@ button {
     text-align: center;
     text-decoration: none;
   }
-
