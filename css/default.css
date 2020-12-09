@@ -1,10 +1,6 @@
 /* Fonts */
 
 @font-face {
-    font-family: 'karlaregular';
-    src: url(../fonts/karla-variablefont_wght-webfont.woff2) format('woff2'),
-    url(../fonts/karla-variablefont_wght-webfont.woff) format('woff');
-
     font-family: 'latoregular';
     src: url(../fonts/lato-regular-webfont.woff2) format('woff2'),
     url(../fonts/lato-regular-webfont.woff) format('woff');
@@ -19,7 +15,7 @@
     url(../fonts/lato-black-webfont.woff) format('woff');
 }
 
-/* General */
+/* General Rule Sets*/
 
 * {
     scroll-behavior: smooth;
@@ -59,7 +55,7 @@ li {
 }
 
 
-/* Specific */
+/* Specific Rule Sets*/
 
 /* Navigation Bar */
 .navbar {
@@ -98,12 +94,12 @@ button {
     width: 9rem;
 }
 
-/* Mouse Hover */
+/*Hover */
 .btn:hover {background: rgb(0, 0, 0);}
     .connect {color: #000000;}
 
 
-/*Back to Top*/
+/*Back to Top Button*/
 .back-to-top-link {
     background-color: #d1c597;
     border-radius: 50%;
