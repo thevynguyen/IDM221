@@ -1,0 +1,43 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('montserrat-semibold-webfont.woff2') format('woff2'),
+         url('montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Navigation Bar */
+
+menu-top {
+    font-family: 'playfair_displayregular', 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
