@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vy Nguyen Portfolio</title>
-    <link rel="stylesheet" href="revised-css/default.css">
+    <link rel="stylesheet" href="default.css">
+    <script src="script/script.js"></script>
 </head>
-
 
 <body>
     <header>
     <!--Navigation Bar-->
-        <div class="menu-top">
-        <a class="active" href="revised-index.html">Vy Nguyen</a>
-        <a href="revised-work/revised-index.html">work</a>
-        <a href="revised-about.html">about</a>
-        <a href="revised-resume.html">resume</a>
+        <div class="menu-top" id="topMenu">
+            <a href="revised-index.html" class="active">Vy Nguyen</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                <img src="revised-images/menu.svg" alt="menu-icon">
+            </a>
         </div>
     </header>
-</body>
 
+    <div class="row">
+        <div class="column">
+            <img src="revised-images/vy_icon.jpg" alt="vy icon">
+        </div>
+        <div class="column">
+            <h1>HI, I'M VY!</h1>
+            <p>I’m a designer, driven to creating magical user experiences. I am passionate about integrating accessibility and inclusiveness.</p>
+        </div>
+    </div>
+
+</body>
 </html>
