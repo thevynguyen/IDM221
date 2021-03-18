@@ -1,15 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vy Nguyen Portfolio</title>
-    <link rel="stylesheet" href="default.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Vy Nguyen's Portfolio</title>
+    </head>
 
-<body>
-    
-</body>
+    <body>
+
+        <header>
+            <!--Main Navigation-->
+            <div class="container">
+                <nav>
+                    <a href="index.html"><img class="logo" src="images/logo4.svg" alt="logo" /></a>
+
+                    <button class="hamburger" id="hamburger">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <ul class="nav_sections" id="nav_sections">
+                        <li><a href="index.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="resume" href="resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="this_container">
+            <main class="about">
+                <div class="about_intro">
+                    <h1>About Vy</h1>
+                </div>
+                <div class="this_container">
+                    <img class="profile"
+                        srcset="images/about-large.jpg 960w, images/about-medium.jpg 640w, images/about-small.jpg 320w"
+                        sizes="(min-width: 500px) 650px, 60vw" src="images/about.jpg" alt="about" />
+                </div>
+                <div class="about_content">
+                    <h3 class="about_title">Hello there!</h3>
+                    <p> I'm currently a junior at Drexel University in the Custom-Designed Program, studying Human-Centered
+                        Design and Engineering. I am an aspiring designer with a drive to create magical experiences whether
+                        that be digital or physical. I am passionate about learning and integrating accessibility and
+                        inclusiveness into my creations.
+                    </p>
+                    <p> Aside from my work, I love to hike, play sports, and explore new video games. I really enjoy learning
+                        new cooking receipes and have an odd addiction to bubble tea (specifically jasmine tea). I am originally
+                        from South florida but am currently based in Philadelphia.
+                    </p>
+                </div>
+            </main>
+        </div>
+       
+
+    </body>
+
+
+
 
 </html>
