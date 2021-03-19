@@ -360,6 +360,12 @@ div.this_container {
 	}
 }
 
+@media (max-width: 580px) {
+	.bloom_logo {
+		width: 60%;
+	}
+}
+
 @media (max-width: 1050px) {
 	.bloom_logo {
 		width: 100%;
@@ -372,7 +378,7 @@ div.this_container {
 	max-width: 600px;
 }
 
-.project h1 {
+.guru_title {
 	font-family: 'monsterrat-semibold', sans-serif;
 	color: black;
 	font-size: 3rem;
@@ -423,8 +429,8 @@ div.this_container {
 		padding-right: 3rem;
 	}
 	.guru_images {
-		padding-left: 6rem;
-		padding-right: 4rem;
+		padding-left: 5rem;
+		padding-right: 3rem;
 	}
 }
 
