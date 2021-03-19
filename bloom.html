@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<title>Vy Nguyen's Portfolio</title>
+	</head>
+
+	<body>
+		<header>
+			<!--Main Navigation-->
+			<div class="container">
+				<nav>
+					<a href="index.html"><img class="logo" src="images/logo4.svg" alt="logo" /></a>
+					<button class="hamburger" id="hamburger">
+						<i class="fa fa-bars"></i>
+					</button>
+					<ul class="nav_sections" id="nav_sections">
+						<li><a class="active" href="index.html">Projects</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="resume" href="resume.html">Resume</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!--Bloom Project-->
+		<div class="this_container">
+			<main class="project">
+				<div class="this_container">
+					<img class="bloom_logo" src="images/bloom_logo.jpg" alt="bloom logo" />
+				</div>
+				<!--Bloom Info Container-->
+				<div class="bloom_container">
+					<h2>Project Scope</h2>
+					<p>
+						Bloom Workspace was an original concept that focused on developing a platform where people can create and discover collaborative work
+						spaces in city-areas such as Philly and NYC. Users can book online spaces for either themselves or their business/team, leading to further
+						improve the commuter life as well. The learning objective of the project was to practice my visual and prototyping skills in Sketch by
+						going through the low-mid-hi-fidelity phases.
+					</p>
+					<!--Bloom Examples-->
+					<div class="bloom_images">
+						<picture>
+							<img
+								srcset="images/bloom_home_large.jpg 1000w, images/bloom_home_medium.jpg 600w, images/bloom_home_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/bloom_home_small.jpg"
+								alt="bloom home layout"
+							/>
+						</picture>
+					</div>
+					<div class="bloom_images">
+						<picture>
+							<img
+								srcset="images/bloom_search_large.jpg 1000w, images/bloom_search_medium.jpg 600w, images/bloom_search_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/bloom_search_small.jpg"
+								alt="bloom search layout"
+							/>
+						</picture>
+					</div>
+					<div class="bloom_images">
+						<picture>
+							<img
+								srcset="images/bloom_filter_large.jpg 1000w, images/bloom_filter_medium.jpg 600w, images/bloom_filter_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/bloom_filter_small.jpg"
+								alt="bloom filter layout"
+							/>
+						</picture>
+					</div>
+					<div class="bloom_images">
+						<picture>
+							<img
+								srcset="images/bloom_content_large.jpg 1000w, images/bloom_content_medium.jpg 600w, images/bloom_content_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/bloom_content_small.jpg"
+								alt="bloom content layout"
+							/>
+						</picture>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>

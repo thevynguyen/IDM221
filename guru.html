@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<title>Vy Nguyen's Portfolio</title>
+	</head>
+
+	<body>
+		<header>
+			<!--Main Navigation-->
+			<div class="container">
+				<nav>
+					<a href="index.html"><img class="logo" src="images/logo4.svg" alt="logo" /></a>
+					<button class="hamburger" id="hamburger">
+						<i class="fa fa-bars"></i>
+					</button>
+					<ul class="nav_sections" id="nav_sections">
+						<li><a class="active" href="index.html">Projects</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="resume" href="resume.html">Resume</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!--Guru Container-->
+		<div class="this_container">
+			<main class="project">
+				<div class="this_container">
+					<h1>Guru Mobile Design</h1>
+				</div>
+				<!--Guru Project Info-->
+				<div class="guru_container">
+					<h2>Project Scope</h2>
+					<p>
+						Your school wants to strengthen the community by encouraging experienced students to connect with new students and help them adjust to
+						campus life. Design an experience that allows mentors and mentees to discover each other. Consider the needs of both mentors and mentees,
+						including how someone may become a mentor and how to connect mentors to mentees.
+					</p>
+					<!--Guru Examples-->
+					<div class="guru_images">
+						<picture>
+							<img
+								srcset="images/guru_home_medium.jpg 1000w, images/guru_home_medium.jpg 600w, images/guru_home_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/guru_home_small.jpg"
+								alt="guru home layout"
+							/>
+						</picture>
+					</div>
+					<div class="guru_container">
+						<p>
+							I used some of my personal experiences working as a student ambassador at Drexel University, where I speak to prospective students and
+							families. From personal experience, I currently work as a student ambassador for Drexel University where I speak to prospective students
+							and their families. One of the concerns I address the most often is about the transition from high school to college and whether or not
+							the adjustment to college life is difficult. It is usually the job of the universities to assist with resources and support during the
+							incoming students first year on campus since it is an entirely new environment to them away from home and their parents. To note: Drexel
+							University is a co-op school therefore every student is on a varying track and co-op is an integral part of Drexel so I included it
+							within my design.
+						</p>
+					</div>
+					<div class="guru_images">
+						<picture>
+							<img
+								srcset="images/mentor_medium.jpg 1000w, images/mentor_medium.jpg 600w, images/mentor_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/mentor_small.jpg"
+								alt="guru mentor layout"
+							/>
+						</picture>
+					</div>
+					<div class="guru_images">
+						<picture>
+							<img
+								srcset="images/mentee_medium.jpg 1000w, images/mentee_medium.jpg 600w, images/mentee_small.jpg 300w"
+								sizes="(min-width: 580px) 750px, 85vw"
+								src="images/mentee_small.jpg"
+								alt="mentee layout"
+							/>
+						</picture>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<title>Vy Nguyen's Portfolio</title>
+	</head>
+
+	<body>
+		<header>
+			<!--Main Navigation-->
+			<div class="container">
+				<nav>
+					<a href="index.html"><img class="logo" src="images/logo4.svg" alt="logo" /></a>
+
+					<button class="hamburger" id="hamburger">
+						<i class="fa fa-bars"></i>
+					</button>
+
+					<ul class="nav_sections" id="nav_sections">
+						<li><a class="active" href="index.html">Projects</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="resume" href="resume.html">Resume</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!--Carrot Buddy Grid Layout-->
+		<main class="carrotbuddy">
+			<div class="grid">
+				<div>
+					<h1 class="carrot_header">Carrot Buddy</h1>
+				</div>
+				<div class="this_container">
+					<picture>
+						<source
+							media="(min-width: 550px)"
+							srcset="images/solution_large.jpg 1000w, images/solution_medium.jpg 600w, images/solution_small.jpg 300w"
+							sizes="500px"
+						/>
+						<img class="carrotbuddy_image" src="images/solution_small.jpg" alt="carrot buddy solution" />
+					</picture>
+				</div>
+
+				<div class="project_description">
+					<img
+						srcset="images/process_large.jpg 1000w, images/process_medium.jpg 600w, images/process_small.jpg 300w"
+						sizes="(min-width: 600px) 600px, 85vw"
+						src="images/process_small.jpg"
+						alt="process"
+					/>
+				</div>
+				<div class="project_description">
+					<h3>Problem:</h3>
+					<p>
+						Currently, students across the nation are facing pressing challenges to their mental and physical wellbeing due to remote-learning and the
+						lifestyle transition from physical to completely virtual. Our team aimed to improve student’s self-care and productivity levels by
+						designing a solution that is engaging and interactive, providing an environment where individuals can manage their tasks, goals, and
+						habits for a healthier and happier lifestyle.
+					</p>
+				</div>
+
+				<div class="project_description">
+					<img
+						srcset="images/persona_large.jpg 1000w, images/persona_medium.jpg 600w, images/persona_small.jpg 300w"
+						sizes="(min-width: 600px) 600px, 85vw"
+						src="images/persona_small.jpg"
+						alt="persona"
+					/>
+				</div>
+				<div class="project_description">
+					<h3>Problem Statement:</h3>
+					<p>How might we improve student’s self-care and productivity during remote-learning?</p>
+					<h3>Research Objective:</h3>
+					<p>
+						Gain stronger insight to what issues our target users are facing being in quarantine through external sources with online journal reviews
+						that have been measuring students’ performance metric levels since start of remote-learning.
+					</p>
+				</div>
+
+				<div class="project_description">
+					<img
+						srcset="images/affinity_large.jpg 1000w, images/affinity_medium.jpg 600w, images/affinity_small.jpg 300w"
+						sizes="(min-width: 600px) 600px, 85vw"
+						src="images/affinity_small.jpg"
+						alt="affinity"
+					/>
+				</div>
+				<div class="project_description">
+					<h3>User Research:</h3>
+					<p>
+						I conducted 8 interviews with university students (Drexel University, University of Pennsylvania, Temple University, and Penn State
+						University) to determine the best pathway to a solution using the collection of data to drive my process. This includes contextual
+						research of walkthrough of students’ daily remote routines, competitive market analysis, and survey data.
+					</p>
+				</div>
+
+				<div class="project_description">
+					<img
+						srcset="images/storyboard_large.jpg 1000w, images/storyboard_medium.jpg 600w, images/storyboard_small.jpg 300w"
+						sizes="(min-width: 600px) 600px, 85vw"
+						src="images/storyboard_small.jpg"
+						alt="affinity"
+					/>
+				</div>
+				<div class="project_description">
+					<h3>Storyboarding:</h3>
+					<p>
+						Created a character that students could relate to (empathize with) and devise a plot that users would more likely to remember. Stories
+						motivate us to do certain things and can act as a persuasive communication tool. Revert back to the Psychology of Motivation and
+						attempting to develop a feelng of connectedness.
+					</p>
+				</div>
+
+				<div class="project_description">
+					<img
+						srcset="images/interface_large.jpg 1000w, images/interface_medium.jpg 600w, images/interface_small.jpg 300w"
+						sizes="(min-width: 600px) 600px, 85vw"
+						src="images/interface_small.jpg"
+						alt="affinity"
+					/>
+				</div>
+			</div>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
